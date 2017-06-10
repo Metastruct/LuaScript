@@ -1,3 +1,11 @@
+# GLua Script Environment for Notepad++
+
+Check out Releases for a package. Contains GLuaScript (a fork of LuaScript NPP module), lua modules from [ZeroBraneStudio](https://studio.zerobrane.com/) editor for finding Garry's Mod and syntax highlighter from notepad++ plugins with updated rules from [here](https://raw.githubusercontent.com/robotboy655/robotboy655.github.io/master/GmodLua.xml).
+
+___________
+
+* Original text: * 
+
 # LuaScript
 Notepad++ plugin for [Lua](http://www.lua.org/) scripting capabilities. This provides control over all of Scintilla's features and options with a light-weight, fully-functional programming language.
 
