@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaScript", "src\LuaScript.vcxproj", "{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A} = {FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "src\Lua.vcxproj", "{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +21,6 @@ Global
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|Win32.Build.0 = Release|Win32
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|x64.ActiveCfg = Release|x64
 		{1590D7CD-7D3A-4AB7-A355-EE02F7FB987D}.Release|x64.Build.0 = Release|x64
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Debug|Win32.Build.0 = Debug|Win32
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Debug|x64.ActiveCfg = Debug|x64
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Debug|x64.Build.0 = Debug|x64
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Release|Win32.ActiveCfg = Release|Win32
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Release|Win32.Build.0 = Release|Win32
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Release|x64.ActiveCfg = Release|x64
-		{FCFBB3B0-8628-4CD0-A9B7-1BFB34E31E2A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

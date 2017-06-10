@@ -1424,6 +1424,8 @@ static bool InitGlobalScope() {
 
 	// ...register standard libraries
 	luaL_openlibs(luaState);
+	luaopen_base2(luaState);
+	luaL_openlibs2(luaState);
 
 	// override a library function whose default impl uses stdout
 	lua_register(luaState, "print", cf_global_print);
